@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filteren</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header>
+        <img class="ns-logo" src="image/1280px-Nederlandse_Spoorwegen_logo.svgkopie.png" alt="ns-logo">
+
+        <h1>NS-Filteren</h1>
+
+        <nav>
+            <ul>
+                <!--Er moet meer li komen met daarbij iconen, dit is niet de enige-->
+                <li><a href="">Filterlijst</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <form action="overzichtspagina.html">
+
+           <fieldset>
+                <legend>Sorteren</legend>
+
+                <label class="filter-label">
+                <input type="radio">
+                Populariteit</label>
+
+                <label class="filter-label">
+                <input type="radio">
+                Leestijd</label>
+
+                <label class="filter-label">
+                <input type="radio">
+                Reacties</label>
+
+                <label class="filter-label">
+                <input type="radio">
+                Aantal</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Thema's</legend>
+
+                <label class="filter-label">
+                <input type="checkbox">
+                Horror</label>
+
+                <label class="filter-label">
+                <input type="checkbox">
+                Vrolijk</label>
+
+                <label class="filter-label">
+                <input type="checkbox">
+                Grappig</label>
+
+                <label class="filter-label">
+                <input type="checkbox">
+                Spannend</label>
+
+                <label class="filter-label">
+                <input type="checkbox">
+                Thriller</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Leestijd</legend>
+
+                <label>
+                <input type="range">
+                </label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Tijdperk</legend>
+
+                <label class="filter-label">
+                <input type="radio">
+                Toekomst</label>
+
+                <label class="filter-label">
+                <input type="radio">
+                Modern</label>
+
+                <label class="filter-label">
+                <input type="radio">
+                Ouderwets</label>
+            </fieldset>
+
+            <input type="submit" value="Filteren">
+
+        </form>
+    </main>
+
+    <footer>
+        NS application</footer>
+
+</body>
+
+
+</html>

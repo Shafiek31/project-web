@@ -1,0 +1,178 @@
+* {
+    font-family: helvetica;
+}
+
+.ns-logo {
+    width: 3em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.3em;
+    color: #213973;
+    margin-bottom: 0em;
+}
+
+h2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #213973;
+    margin-top: 0em;
+}
+
+.h2-overzichts {
+    text-align: left;
+    margin: 0em 2em;
+}
+
+h3 {
+    margin-bottom: 1em;
+    font-size: 1em;
+    text-align: center;
+    color: #213973;
+}
+
+body {
+    background-color: #fec81b;
+    font-weight: 150;
+}
+
+.account-body {
+    background-color: white;
+}
+
+.main-intro {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-style: normal;
+    color: #213973;
+    margin: 2em 2.5em;
+}
+
+form {
+    margin: 1.2em 2.0em;
+    font-size: 1em;
+    color: #213973;
+}
+
+fieldset {
+    margin-bottom: 1em;
+}
+
+.filter-label {
+    display: block;
+    padding: 0.5em;
+}
+
+input {
+    display: inline-block;
+    height: 2em;
+    width: 20em;
+    font-size: 0.8em;
+    padding-left: 0.6em;
+    margin-bottom: 0.6em;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 1px;
+}
+
+ul {
+    text-decoration: none;
+    padding: 0.6em 5em;
+}
+
+li {
+    display: block;
+    padding: 1.2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-style: normal;
+    color: #213973;
+    margin-top: 1em;
+}
+
+.vergeten {
+    font-size: 0.7em;
+    margin: auto;
+    padding: 2em 2em 12.5em;
+}
+
+[type="checkbox"] {
+    padding: 0em;
+    margin: 0em;
+    font-size: 0.1em;
+    width: 2em;
+}
+
+strong {
+    color: #2375ba;
+    font-weight: 6.3em;
+}
+
+article {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #213973;
+    background-color: white;
+    padding: 0em;
+    box-sizing: border-box;
+    margin-bottom: 0.5em;
+}
+
+img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    color: #2375ba;
+    font-size: 1em;
+    margin: 1em 2em;
+}
+
+input[type="checkbox"] {
+    width: auto;
+    display: inline-block;
+}
+
+input[type="radio"] {
+    width: auto;
+}
+
+input[type="submit"] {
+    background-color: #2375ba;
+    color: white;
+}
+
+input[type="range"] {
+    width: 10em;
+}
+
+.intro-overzichts {
+    color: #213973;
+    margin-top: 0em;
+}
+
+.auteur {
+    color: lightgray;
+}
+
+}
